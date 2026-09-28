@@ -188,6 +188,7 @@ b{font-weight:700}
 .cta{background:linear-gradient(180deg,#FF9F2E,#F07A12)}.cta-main{background:none;padding:12px 0 12px 16px}.cta-arrow{display:flex;align-items:center;padding:0 16px 0 6px;color:#fff;font-size:34px;font-weight:700;line-height:1}
 .cta-note2{margin-top:2px;font-size:11px}
 @media(max-width:599px){.msg>img{display:none}.msg .sign{display:flex;align-items:center;justify-content:flex-end;gap:10px}.msg .sign::before{content:'';width:56px;height:56px;border-radius:50%;background:url(img/instructor-portrait.jpg) 50% 12%/cover no-repeat;flex:none}}
+.paper{position:relative;flex-wrap:wrap;background:#fff;border:1px solid #d9e2ee;border-radius:4px;padding:22px 18px 18px;box-shadow:0 6px 18px rgba(11,42,91,.10)}.paper::before{content:'';position:absolute;left:0;right:0;top:0;height:5px;background:var(--navy);border-radius:4px 4px 0 0}.paper .paper-ttl{flex-basis:100%;text-align:center;font-weight:700;color:var(--navy);font-size:15px;letter-spacing:.1em;padding-bottom:12px;margin-bottom:6px;border-bottom:1px dashed #c9d5e6}.paper>div p:not(.sign){line-height:2.1;background-image:linear-gradient(transparent calc(100% - 1px),#e3eaf3 1px);background-size:100% 2.1em}.paper .sign{margin-top:14px;padding-top:10px;border-top:1px solid #e3eaf3}
 </style>
 </head>
 <body>
@@ -411,7 +412,8 @@ b{font-weight:700}
 
 <!-- 17 講師からのメッセージ -->
 <section class="sec sec-tint">
-  <div class="msg">
+  <div class="msg paper">
+    <p class="paper-ttl">講師からのメッセージ</p>
     <img src="img/instructor-portrait.jpg" alt="菅谷秀翔">
     <div>
       <p>持ち帰ってほしいのは、<br>営業テクニックの数ではありません。</p>
